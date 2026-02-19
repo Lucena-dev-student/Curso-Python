@@ -1,0 +1,7 @@
+c = input('Digite algo. Pode ser palavras ou números, maiusculo ou minusculo: ')
+print('O tipo primitivo é {}'.format(type(c)))
+print('É formado apenas por números? {}'.format(c.isnumeric()))
+print('É formado apenas por palavras? {}'.format(c.isalpha()))
+print('É formado por palavras e números? {}'.format(c.isalnum()))
+print('É formado apenas por letras maiusculas? {}'.format(c.isupper()))
+print('É formado apenas por letras minusculas? {}'.format(c.islower()))
